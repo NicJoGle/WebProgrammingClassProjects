@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <meta charset="utf-8">
+    <title>Lab 3 - Forms</title>
+
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+          <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" />
+  </p>
+  <p>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email" />
+  </p>
+  <p>
+<label for="coffee-select">Choose a coffee:</label>
+
+<select name="coffees" id="coffee-select">
+  <option value="">--Please choose an option--</option>
+  <option value="latte">Latte</option>
+  <option value="cappucino">Cappucino</option>
+  <option value="americano">Americano</option>
+  <option value="espresso">Espresso</option>
+  <option value="iced-coffee">Iced Coffee</option>
+  <option value="frappe">Frappe</option>
+  <option value="mocha">Mocha</option>
+</select>
+  </p>
+      <fieldset>
+    <legend>Coffee Size</legend>
+    <div>
+      <input type="radio" name="size" id="size_1" value="small" />
+      <label for="size_1">Small</label>
+    </div>
+    <div>
+      <input type="radio" name="size" id="size_2" value="medium" />
+      <label for="size_2">Medium</label>
+    </div>
+    <div>
+      <input type="radio" name="size" id="size_3" value="large" />
+      <label for="size_3">Large</label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Extras</legend>
+    <div>
+    <input type="checkbox" id="extra_1" name="extra_whipped_cream" value="whipped_cream" />
+    <label for="extra_1">Whipped Cream</label>
+    </div>
+  <div>
+    <input type="checkbox" id="extra_2" name="extra_shot" value="extra_shot" />
+    <label for="extra_2">Extra Shot</label>
+  </div>
+  <div>
+    <input type="checkbox" id="extra_3" name="extra_almond_milk" value="almond_milk" />
+    <label for="extra_3">Almond Milk</label>
+  </div>
+  </fieldset>
+    <p>
+    <label for="special_req">Special Requests:</label>
+    <textarea id="special_req" name="user_req"></textarea>
+  </p>
+  <p class="button">
+  <button type="submit">Send your message</button>
+</p>
+    </form>
+</body>
+</html>
