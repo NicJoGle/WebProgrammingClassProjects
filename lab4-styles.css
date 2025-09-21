@@ -1,0 +1,33 @@
+body {
+    background-color:bisque;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 {
+    color:gray;
+    text-align: center;
+}
+p{
+    color:rgb(88, 88, 88);
+    padding: 10px;
+}
+li{
+    color:brown;
+}
+li::marker{
+    color:coral;
+}
+a{
+    color:blue;
+}
+a:hover{
+    text-decoration: none;
+}
+.styled-box{
+    border: 5px solid black;
+    background-color:lightgray;
+    text-align: center;
+    padding: 15px;
+}
+.styled-box p{
+    color:black;
+}
